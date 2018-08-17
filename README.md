@@ -25,6 +25,8 @@ les commandes les plus utilisées : Créer un dossier dans HDFS :
   Exemple :
 
 * hadoop fs -put /home/monFichier.txt /user/monDossier
+si tu est dans cloudera lance le terminale "cloudera" tu te positionne dans le repertoire de données 
+cdsw@zejpq5tc9t5et4vc:~/projet_calc_v2/calc_metrics/models$ hadoop fs -put label_encode_861.pkl /user/a4175704/les_fichier_csv/
 ## Exporter un ou plusieurs fichiers de HDFS au local:
 
   Commande:
